@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Ninjax</title>
+
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../lib/ninjax.js"></script>
+
+    <style>
+        [data-ninjax-layer] {
+            display: none;
+        }
+
+        [data-ninjax-layer].active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div data-ninjax-container>
+        <div data-ninjax-layer="layer-1" class="active">
+            <p>Layer 1</p>
+            <p><a href="layer2.htm" data-ninjax="next">Open Layer 2</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

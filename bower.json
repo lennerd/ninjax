@@ -1,0 +1,16 @@
+{
+  "name": "ninjax",
+  "version": "0.0.1",
+  "authors": [
+    "Lennart Hildebrandt <hello@lennerd.com>"
+  ],
+  "description": "AJAX Content Include Library",
+  "main": "lib/ninjax.js",
+  "keywords": [
+    "jquery",
+    "ajax",
+    "content include"
+  ],
+  "license": "MIT",
+  "ignore": []
+}
